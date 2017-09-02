@@ -1,0 +1,25 @@
+/***************************************************************************************
+*                                                                                      *
+*                  CODERBYTE BEGINNER CHALLENGE                                        *
+*                                                                                      *
+*  First Reverse                                                                       *
+*  Have the function FirstReverse() take the str parameter being passed and return     *
+*  the string in reversed order.                                                       *
+
+#My Version#
+
+def FirstReverse(str):
+    reverseStr = str[-1::-1]
+    return reverseStr
+
+
+# keep this function call here
+print FirstReverse(raw_input())
+
+
+#from ratracegrad
+function FirstReverse(str) { 
+
+  return str.split("").reverse().join("");
+         
+}
